@@ -1,0 +1,5 @@
+#Excluded files from the repository.
+
+node_modules/  # Node modules.
+minified       # Minified css, html and js files.
+.publish
