@@ -1,12 +1,19 @@
-#ETSII ULL Grado de Informatica 
-#Práctica:
+# Comma Separated Values.
+## ETSII ULL Grado de Informatica
+## Asignatura: [Procesadores de Lenguajes](https://campusvirtual.ull.es/1516/course/view.php?id=178)
 
-#Comma Separated Values
+### Descripcion de la práctica [aquí.](https://casianorodriguezleon.gitbooks.io/pl1516/content/practicas/csv.html)
 
-For more information look at:
+### Despliegue en github.io
 
-* La sección *Práctica: Comma Separated Values. CSV* de los [apuntes](http://crguezl.github.io/pl-html/node11.html)
-* La [descripción de la práctica](https://casianorodriguezleon.gitbooks.io/pl1516/content/practicas/csv.html)
-* See it working at [CSV en GitHub Pages](http://crguezl.github.io/csv/)
-* See also [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) at Wikipedia.
+* [Página de la práctica](http://ULL-ESIT-GRADOII-PL.github.io/localstorage-jquery-underscore-express-sass-heroku-David_y_Ruyman/)
 
+### Desarrolladores
+
+#### Ángel David Martín Rodríguez
+  - Email: alu0100818208@ull.edu.es
+  - [Página personal](http://alu0100818208.github.io)
+
+#### Ruymán Rodríguez Martín
+  - Email: alu0100845235@ull.edu.es
+  - [Página personal](http://alu0100845235.github.io)
