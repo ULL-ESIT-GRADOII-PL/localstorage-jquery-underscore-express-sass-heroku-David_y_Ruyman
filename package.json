@@ -1,0 +1,47 @@
+{
+  "name": "CSV",
+  "version": "0.0.1",
+  "description": "CSV",
+  "main": "./assets/js/main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "./node_modules/karma/bin/karma start --single-run",
+    "testf": "open ./test/index.html",
+    "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o vendor/chai.js",
+    "sinon": "curl http://sinonjs.org/releases/sinon-1.12.2.js -o vendor/sinon-1.12.2.js",
+    "karma": "node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ULL-ESIT-GRADOII-PL/karma-y-travis-David_y_Ruyman.git"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "sinon",
+    "testing",
+    "javascript"
+  ],
+  "author": "Angel David Martin Rodriguez & Ruyman Rodriguez Martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-GRADOII-PL/karma-y-travis-David_y_Ruyman/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-GRADOII-PL/karma-y-travis-David_y_Ruyman",
+  "devDependencies": {
+    "gulp-gh-pages": "*",
+    "chai": "~2.0.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-minifier": "^0.1.3",
+    "karma": "*",
+    "karma-chai": "*",
+    "karma-chrome-launcher": "*",
+    "karma-safari-launcher": "*",
+    "karma-firefox-launcher": "*",
+    "karma-phantomjs-launcher": "*",
+    "karma-html2js-preprocessor": "*",
+    "karma-mocha": "*",
+    "mocha": "*"
+  }
+}

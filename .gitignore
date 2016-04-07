@@ -1,5 +1,4 @@
-#Excluded files from the repository.
-
-node_modules/  # Node modules.
-minified       # Minified css, html and js files.
+node_modules
+minified
 .publish
+npm-debug.log
