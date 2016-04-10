@@ -29,19 +29,19 @@
   },
   "homepage": "https://github.com/ULL-ESIT-GRADOII-PL/karma-y-travis-David_y_Ruyman",
   "devDependencies": {
-    "gulp-gh-pages": "*",
     "chai": "~2.0.0",
     "del": "^2.2.0",
     "gulp": "^3.9.1",
+    "gulp-gh-pages": "*",
     "gulp-minifier": "^0.1.3",
     "karma": "*",
     "karma-chai": "*",
     "karma-chrome-launcher": "*",
-    "karma-safari-launcher": "*",
     "karma-firefox-launcher": "*",
-    "karma-phantomjs-launcher": "*",
     "karma-html2js-preprocessor": "*",
     "karma-mocha": "*",
+    "karma-phantomjs-launcher": "*",
+    "karma-safari-launcher": "*",
     "mocha": "*"
   }
 }
