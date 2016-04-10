@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Wed Mar 30 2016 20:41:53 GMT+0100 (WEST)
+// Generated on Wed Mar 30 2016 20:41:53 GMT0100 (WEST)
 
 module.exports = function(config) {
   config.set({
@@ -19,10 +19,14 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'test/test.html',
-      'main.js',
-      'test/*.js',
       'csv.js',
+      'csv_test.js',
+      'vendor/chai.js',
+      'vendor/mocha.css',
+      'vendor/mocha.js',
+      'vendor/sinon-1.17.3.js',
+      'vendor/blanket.min.js',
+      'vendor/mocha-blanket.js',
     ],
 
     // list of files to exclude
