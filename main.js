@@ -2,6 +2,8 @@ main = function() {
   var original = document.getElementById("original").value;
   if (window.localStorage) localStorage.original = original;
   var r = calculate(original);
+  /*Saving messages*/
+  console.log(r[0].value[0]);
   var template = fillTable.innerHTML;
   finaltable.innerHTML = _.template(template, {items: r});
 };
