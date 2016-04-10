@@ -1,0 +1,80 @@
+
+$htmlFontSize: large;
+$htmlFontType: Arial;
+html * {
+   font-size: $htmlFontType;
+   /* The !important ensures that nothing can override what you've set in this style (unless it is also important). */
+   font-family: $htmlFontType;
+}
+
+$h1TextAlign: center;
+$h1FontSize: x-large;
+h1  {
+   text-align: $h1TextAlign;
+   font-size: $h1FontSize;
+}
+
+$thtdVerticalAlign: top;
+$thhtdTextAlign: right;
+th {
+   td {
+     vertical-align: $thtdVerticalAlign;
+     text-align: $thhtdTextAlign;
+   }
+}
+
+$fTableBackgColor: blue;
+#finaltable:hover td {
+   background-color: $fTableBackgColor;
+}
+
+$trBackgColorOdd: #eee;
+tr:nth-child(odd) {
+   background-color: $trBackgColorOdd;
+}
+
+$trBackgColorEven: #00FF66;
+tr:nth-child(even) {
+   background-color: $trBackgColorEven;
+}
+
+$inputTextAlign: right;
+$inputBorder: none;
+input {
+   text-align: $inputTextAlign;
+   border: $inputBorder;
+}     /* Align input to the right  */
+
+$textareaBorder: outset;
+$BorderColor: white;
+textarea {
+   border: $textareaBorder;
+   border-color: $BorderColor;
+}
+
+$tableBorder: inset;
+table {
+   border: $tableBorder;
+   border-color: $BorderColor;
+}
+
+$tableLeftMargin: auto;
+$tableRightMargin: auto;
+table.center {
+   margin-left: $tableLeftMargin;
+   margin-right: $tableRightMargin;
+}
+
+$BorderColor2: red;
+#result {
+   border-color: $BorderColor2;
+}
+
+tr.error {
+  background-color: $BorderColor2;
+}
+
+$bodyBackgColor: #b0c4de;
+body {
+ background-color: $bodyBackgColor;  /* blue */
+}
