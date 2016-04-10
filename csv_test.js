@@ -14,7 +14,7 @@ var expect = chai.expect;
      mysandbox.restore();
    });
 
-   describe("funcion calculate", function() {
+   describe("Entrada.", function() {
      it("Debería poderse introducir una cadena y que sea aceptada.", function() {
        var cadena = '"Prueba"';
        var r = calculate(cadena);
