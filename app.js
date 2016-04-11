@@ -10,13 +10,13 @@ var expressLayouts = require('express-ejs-layouts');
 app.set('layout', 'layout'); // defaults to 'layout'
 
 // Serve static files
-app.use (express.static ('public'));
+app.use (express.static (__dirname + '/public'));
 app.use(expressLayouts);
 
 // Luego la consultamos con app.get('port')
 app.set('port', (process.env.PORT || 5000)); 
 
-var parser = require('./public/js/csv.js')
+var parser = require(__dirname + '/public/js/csv.js')
 
 // instruct the app to use the `bodyParser()` middleware for all routes
 var bodyParser = require('body-parser')
@@ -31,6 +31,6 @@ app.post('/', function (req, res) {
 	res.render ('csv', { title: "CSV Analyzer", resultados: resultado} );
 });
 
-	app.listen (8080, function () {
+	app.listen (app.get ('port'), function () {
 	  console.log ('Aplicación Node corriendo en localhost: ' + app.get ('port'));
 });
