@@ -46,7 +46,7 @@ var expect = chai.expect;
      it("Espacio en balnco con dos comas seguidas.", function() {
        var cadena = ' " ","PruebaA",,"PruebaB"';
        var r = calculate(cadena);
-       expect(r[0].value[0]).to.equal(' ');
+       expect(r[0].value[0]).to.equal('');
        expect(r[0].value[1]).to.equal('PruebaA');
        expect(r[0].value[2]).to.equal('');
        expect(r[0].value[3]).to.equal('PruebaB');
