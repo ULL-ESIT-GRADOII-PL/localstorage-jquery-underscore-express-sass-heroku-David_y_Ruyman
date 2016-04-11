@@ -6,7 +6,8 @@
 
 ### Despliegue en github.io
 
-* [Página de la práctica](http://ULL-ESIT-GRADOII-PL.github.io/localstorage-jquery-underscore-express-sass-heroku-David_y_Ruyman/public/__index.html__.html)
+* [Página de la práctica en Heroku](https://obscure-reef-10671.herokuapp.com)
+* [Test con mocha  en Heroku](https://obscure-reef-10671.herokuapp.com/test/test.html)
 * [Test con mocha](http://ULL-ESIT-GRADOII-PL.github.io/localstorage-jquery-underscore-express-sass-heroku-David_y_Ruyman/public/test/test.html)
 
 ### Desarrolladores
