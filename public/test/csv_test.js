@@ -43,8 +43,8 @@ var expect = chai.expect;
      });
 
      //---------Cuatro columnas-------------------
-     it("Espacio en balnco con dos comas seguidas.", function() {
-       var cadena = ' " ","PruebaA",,"PruebaB"';
+     it("Espacio en blanco con dos comas seguidas.", function() {
+       var cadena = '" ","PruebaA",,"PruebaB"';
        var r = calculate(cadena);
        expect(r[0].value[0]).to.equal(' ');
        expect(r[0].value[1]).to.equal('PruebaA');

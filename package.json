@@ -15,8 +15,8 @@
   },
   "scripts": {
     "start": "node app.js",
-    "test": "./node_modules/karma/bin/karma start --single-run",
-    "testf": "open ./test/index.html",
+    "test": "node_modules/karma/bin/karma start --single-run",
+    "testf": "open test/index.html",
     "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o vendor/chai.js",
     "sinon": "curl http://sinonjs.org/releases/sinon-1.12.2.js -o vendor/sinon-1.12.2.js",
     "karma": "node_modules/karma/bin/karma start"
