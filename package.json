@@ -2,7 +2,7 @@
   "name": "CSV",
   "version": "0.0.1",
   "description": "CSV",
-  "main": "./assets/js/main.js",
+  "main": "app.js",
   "dependencies": {
     "express": "*",
     "ejs": "*",
