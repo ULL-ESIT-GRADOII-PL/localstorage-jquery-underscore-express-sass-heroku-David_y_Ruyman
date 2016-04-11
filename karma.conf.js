@@ -19,8 +19,8 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'csv.js',
-      'csv_test.js',
+      'js/csv.js',
+      'test/csv_test.js',
       'vendor/chai.js',
       'vendor/mocha.css',
       'vendor/mocha.js',
