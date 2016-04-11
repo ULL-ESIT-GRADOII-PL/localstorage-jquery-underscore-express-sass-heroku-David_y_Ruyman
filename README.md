@@ -1,4 +1,4 @@
-# Comma Separated Values.[![Build Status](https://travis-ci.org/ULL-ESIT-GRADOII-PL/localstorage-jquery-underscore-express-sass-heroku-David_y_Ruyman.svg?branch=gh-pages)](https://travis-ci.org/ULL-ESIT-GRADOII-PL/localstorage-jquery-underscore-express-sass-heroku-David_y_Ruyman)
+# Comma Separated Values.[![Build Status](https://travis-ci.org/ULL-ESIT-GRADOII-PL/localstorage-jquery-underscore-express-sass-heroku-David_y_Ruyman.svg?branch=master)](https://travis-ci.org/ULL-ESIT-GRADOII-PL/localstorage-jquery-underscore-express-sass-heroku-David_y_Ruyman)
 ## ETSII ULL Grado de Informatica
 ## Asignatura: [Procesadores de Lenguajes](https://campusvirtual.ull.es/1516/course/view.php?id=178)
 
@@ -6,8 +6,9 @@
 
 ### Despliegue en github.io
 
-* [Página de la práctica](http://ULL-ESIT-GRADOII-PL.github.io/localstorage-jquery-underscore-express-sass-heroku-David_y_Ruyman/)
-* [Test con mocha](http://ULL-ESIT-GRADOII-PL.github.io/localstorage-jquery-underscore-express-sass-heroku-David_y_Ruyman/test.html)
+* [Página de la práctica en Heroku](https://tranquil-forest-72450.herokuapp.com)
+* [Test con mocha  en Heroku](https://tranquil-forest-72450.herokuapp.com/test/test.html)
+* [Test con mocha](http://ULL-ESIT-GRADOII-PL.github.io/localstorage-jquery-underscore-express-sass-heroku-David_y_Ruyman/public/test/test.html)
 
 ### Desarrolladores
 
