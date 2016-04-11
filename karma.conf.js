@@ -19,14 +19,14 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'js/csv.js',
-      'test/csv_test.js',
-      'vendor/chai.js',
-      'vendor/mocha.css',
-      'vendor/mocha.js',
-      'vendor/sinon-1.17.3.js',
-      'vendor/blanket.min.js',
-      'vendor/mocha-blanket.js',
+      'public/js/csv.js',
+      'public/test/csv_test.js',
+      'public/vendor/chai.js',
+      'public/vendor/mocha.css',
+      'public/vendor/mocha.js',
+      'public/vendor/sinon-1.17.3.js',
+      'public/vendor/blanket.js',
+      'public/vendor/mocha-blanket.js',
     ],
 
     // list of files to exclude
@@ -37,7 +37,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-        'test/testk.html': ['html2js'],
+        'public/test/testk.html': ['html2js'],
     },
 
     // test results reporter to use
